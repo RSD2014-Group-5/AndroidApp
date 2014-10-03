@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="roscpp-1.10.11">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/rosjava/devel/share/maven/org/ros/rosjava_messages/roscpp/1.10.11/roscpp-1.10.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

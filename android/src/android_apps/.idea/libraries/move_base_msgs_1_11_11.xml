@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="move_base_msgs-1.11.11">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/rosjava/devel/share/maven/org/ros/rosjava_messages/move_base_msgs/1.11.11/move_base_msgs-1.11.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

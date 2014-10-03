@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="0.1.4" >
+        <source path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_extras/gingerbread/0.1.4/res" >
+            <file
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_extras/gingerbread/0.1.4/res/values/values.xml"
+                qualifiers="" >
+                <string name="app_name" >ACTIVITY_ENTRY_NAME
+                </string>
+            </file>
+            <file
+                name="main"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_extras/gingerbread/0.1.4/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="battery_charging"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_extras/gingerbread/0.1.4/res/drawable-hdpi-v4/battery_charging.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="battery_silhouette"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_extras/gingerbread/0.1.4/res/drawable-hdpi-v4/battery_silhouette.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+        </source>
+    </dataSet>
+    <dataSet config="0.1.3" >
+        <source path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.3/res" >
+            <file
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.3/res/values/values.xml"
+                qualifiers="" >
+                <string name="cancel" >Cancel
+                </string>
+                <string name="master_uri_hint" >http://localhost:11311/
+                </string>
+                <string name="qr_code" >Read QRCode
+                </string>
+
+                <style name="padded" >
+                    <item name="android:layout_marginTop">
+10dp
+                    </item>
+                </style>
+
+                <string name="use_master" >Connect
+                </string>
+                <string name="new_private_master" >New Private Master
+                </string>
+                <string name="app_name" >ROS for Android
+                </string>
+                <string name="new_master" >New Public Master
+                </string>
+                <string name="uri_text" >Robot URI:
+                </string>
+                <string name="show_advanced" >Show advanced options
+                </string>
+            </file>
+            <file
+                name="master_chooser"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.3/res/layout/master_chooser.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="icon"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.3/res/drawable-ldpi-v4/icon.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.3/res/drawable-mdpi-v4/icon.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.3/res/drawable-hdpi-v4/icon.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+        </source>
+    </dataSet>
+    <dataSet config="0.1.4" >
+        <source path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_apps/application_management/0.1.4/res" >
+            <file
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_apps/application_management/0.1.4/res/values/values.xml"
+                qualifiers="" >
+                <string name="app_name" >ACTIVITY_ENTRY_NAME
+                </string>
+            </file>
+            <file
+                name="default_dashboard"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_apps/application_management/0.1.4/res/layout/default_dashboard.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_apps/application_management/0.1.4/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="ic_launcher"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_apps/application_management/0.1.4/res/drawable-ldpi-v4/ic_launcher.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_apps/application_management/0.1.4/res/drawable-xhdpi-v4/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_apps/application_management/0.1.4/res/drawable-mdpi-v4/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_apps/application_management/0.1.4/res/drawable-hdpi-v4/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="gear"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_apps/application_management/0.1.4/res/drawable-hdpi-v4/gear.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+        </source>
+    </dataSet>
+    <dataSet config="0.1.4" >
+        <source path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_extras/zxing/0.1.4/res" >
+            <file
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_extras/zxing/0.1.4/res/values/values.xml"
+                qualifiers="" >
+                <string name="app_name" >ACTIVITY_ENTRY_NAME
+                </string>
+            </file>
+            <file
+                name="main"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_extras/zxing/0.1.4/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="ic_launcher"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_extras/zxing/0.1.4/res/drawable-ldpi-v4/ic_launcher.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_extras/zxing/0.1.4/res/drawable-xhdpi-v4/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_extras/zxing/0.1.4/res/drawable-mdpi-v4/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_extras/zxing/0.1.4/res/drawable-hdpi-v4/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+        </source>
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res" >
+            <file
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="exit" >Exit
+                </string>
+                <string name="app_name" >Robot Remocon
+                </string>
+            </file>
+            <file
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/values/colors.xml"
+                qualifiers="" >
+                <color name="checked" >#303000
+                </color>
+            </file>
+            <file
+                name="pr2"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable-ldpi/pr2.jpg"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="turtlebot"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable-ldpi/turtlebot.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="question_mark"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable-ldpi/question_mark.jpg"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="nfc_tag"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable-ldpi/nfc_tag.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="qrcode"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable-ldpi/qrcode.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="wifi_question_mark"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable-ldpi/wifi_question_mark.jpg"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="add_uri_dialog"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/layout/add_uri_dialog.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="zeroconf_master_list"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/layout/zeroconf_master_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="master_item"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/layout/master_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="app_item"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/layout/app_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="robot_master_chooser"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/layout/robot_master_chooser.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="zeroconf_master_item"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/layout/zeroconf_master_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="nfc_tag_scan"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/layout/nfc_tag_scan.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="add_uri_dialog"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/layout-land/add_uri_dialog.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="conductor"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable/conductor.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="highlight"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable/highlight.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="turtle"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable/turtle.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="checkable"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable/checkable.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="error_triangle"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable/error_triangle.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="pr2"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable-mdpi/pr2.jpg"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="turtlebot"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable-mdpi/turtlebot.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="question_mark"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable-mdpi/question_mark.jpg"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="nfc_tag"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable-mdpi/nfc_tag.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="qrcode"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable-mdpi/qrcode.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="wifi_question_mark"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable-mdpi/wifi_question_mark.jpg"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="pr2"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable-hdpi/pr2.jpg"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable-hdpi/icon.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="turtlebot"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable-hdpi/turtlebot.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="question_mark"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable-hdpi/question_mark.jpg"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="nfc_tag"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable-hdpi/nfc_tag.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="qrcode"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable-hdpi/qrcode.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="wifi_question_mark"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/drawable-hdpi/wifi_question_mark.jpg"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="robot_master_chooser_option_menu"
+                path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/res/menu/robot_master_chooser_option_menu.xml"
+                qualifiers=""
+                type="menu" />
+        </source>
+        <source path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/generated/res/rs/release" />
+        <source path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/generated/res/generated/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/release/res" />
+    </dataSet>
+
+</merger>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="0.1.3" >
+        <source path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.3/res" >
+            <file
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.3/res/values/values.xml"
+                qualifiers="" >
+                <string name="cancel" >Cancel
+                </string>
+                <string name="master_uri_hint" >http://localhost:11311/
+                </string>
+                <string name="qr_code" >Read QRCode
+                </string>
+
+                <style name="padded" >
+                    <item name="android:layout_marginTop">
+10dp
+                    </item>
+                </style>
+
+                <string name="use_master" >Connect
+                </string>
+                <string name="new_private_master" >New Private Master
+                </string>
+                <string name="app_name" >ROS for Android
+                </string>
+                <string name="new_master" >New Public Master
+                </string>
+                <string name="uri_text" >Robot URI:
+                </string>
+                <string name="show_advanced" >Show advanced options
+                </string>
+            </file>
+            <file
+                name="master_chooser"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.3/res/layout/master_chooser.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="icon"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.3/res/drawable-ldpi-v4/icon.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.3/res/drawable-mdpi-v4/icon.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.3/res/drawable-hdpi-v4/icon.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+        </source>
+    </dataSet>
+    <dataSet config="0.1.3" >
+        <source path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res" >
+            <file
+                name="pan_tilt"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/layout/pan_tilt.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="virtual_joystick"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/layout/virtual_joystick.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="top_angle_slice"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/top_angle_slice.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="directional_arrow"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/directional_arrow.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="pan_tilt_follower"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/pan_tilt_follower.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="large_pan_marker_3"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/large_pan_marker_3.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="pan_tilt_controller"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/pan_tilt_controller.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="zoom_in_pressed"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/zoom_in_pressed.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="rotate_right_icon"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/rotate_right_icon.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="previous_velocity"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/previous_velocity.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="background"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/background.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="zoom_bar_notlit"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/zoom_bar_notlit.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="zoom_bg"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/zoom_bg.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="zoom_out_normal"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/zoom_out_normal.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="pt_home_marker"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/pt_home_marker.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="intensity"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/intensity.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="small_pan_marker_3"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/small_pan_marker_3.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="horizon_original"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/horizon_original.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="grey_ring_notched"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/grey_ring_notched.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="black_background"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/black_background.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="rotate_left_icon"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/rotate_left_icon.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="zoom_bar_lit"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/zoom_bar_lit.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="zoom_out_pressed"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/zoom_out_pressed.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="center_widget"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/center_widget.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="small_d_widget_3"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/small_d_widget_3.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="mid_angle_slice"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/mid_angle_slice.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="small_tilt_marker_3"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/small_tilt_marker_3.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="large_d_widget_3"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/large_d_widget_3.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="large_tilt_marker_3"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/large_tilt_marker_3.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="zoom_in_normal"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/zoom_in_normal.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="pt_bg"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/res/drawable-hdpi-v4/pt_bg.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+        </source>
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/src/main/res" >
+            <file
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="app_name" >Map Viewer
+                </string>
+            </file>
+            <file
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="ButtonFont"
+                    parent="@android:style/TextAppearance.Medium" >
+                    <item name="android:textSize">
+15dip
+                    </item>
+                </style>
+            </file>
+            <file
+                name="main"
+                path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/src/main/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+        </source>
+        <source path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/generated/res/rs/release" />
+        <source path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/build/generated/res/generated/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/home/darkriddle/android/src/android_core/android_tutorial_map_viewer/src/release/res" />
+    </dataSet>
+
+</merger>

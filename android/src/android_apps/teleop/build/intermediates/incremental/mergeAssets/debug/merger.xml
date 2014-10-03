@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="0.1.3" >
+        <source path="/home/darkriddle/android/src/android_apps/teleop/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.3/assets" />
+    </dataSet>
+    <dataSet config="0.1.3" >
+        <source path="/home/darkriddle/android/src/android_apps/teleop/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.3/assets" />
+    </dataSet>
+    <dataSet config="0.1.4" >
+        <source path="/home/darkriddle/android/src/android_apps/teleop/build/intermediates/exploded-aar/com.github.rosjava.android_extras/gingerbread/0.1.4/assets" />
+    </dataSet>
+    <dataSet config="0.1.4" >
+        <source path="/home/darkriddle/android/src/android_apps/teleop/build/intermediates/exploded-aar/com.github.rosjava.android_apps/application_management/0.1.4/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/home/darkriddle/android/src/android_apps/teleop/src/main/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/darkriddle/android/src/android_apps/teleop/src/debug/assets" />
+    </dataSet>
+
+</merger>

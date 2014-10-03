@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/home/darkriddle/android/src/android_core/android_acm_serial/src/main/res" />
+        <source path="/home/darkriddle/android/src/android_core/android_acm_serial/build/generated/res/rs/release" />
+        <source path="/home/darkriddle/android/src/android_core/android_acm_serial/build/generated/res/generated/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/home/darkriddle/android/src/android_core/android_acm_serial/src/release/res" />
+    </dataSet>
+
+</merger>

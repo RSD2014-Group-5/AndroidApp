@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/home/darkriddle/android/src/android_apps/application_management/src/main/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/darkriddle/android/src/android_apps/application_management/src/debug/assets" />
+    </dataSet>
+
+</merger>

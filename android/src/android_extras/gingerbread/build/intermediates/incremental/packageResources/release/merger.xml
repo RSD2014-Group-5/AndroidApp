@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/home/darkriddle/android/src/android_extras/gingerbread/src/main/res" >
+            <file
+                path="/home/darkriddle/android/src/android_extras/gingerbread/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="app_name" >ACTIVITY_ENTRY_NAME
+                </string>
+            </file>
+            <file
+                name="main"
+                path="/home/darkriddle/android/src/android_extras/gingerbread/src/main/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="battery_charging"
+                path="/home/darkriddle/android/src/android_extras/gingerbread/src/main/res/drawable-hdpi/battery_charging.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="battery_silhouette"
+                path="/home/darkriddle/android/src/android_extras/gingerbread/src/main/res/drawable-hdpi/battery_silhouette.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+        </source>
+        <source path="/home/darkriddle/android/src/android_extras/gingerbread/build/generated/res/rs/release" />
+        <source path="/home/darkriddle/android/src/android_extras/gingerbread/build/generated/res/generated/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/home/darkriddle/android/src/android_extras/gingerbread/src/release/res" />
+    </dataSet>
+
+</merger>

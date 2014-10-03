@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="0.1.4" >
+        <source path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_extras/gingerbread/0.1.4/assets" />
+    </dataSet>
+    <dataSet config="0.1.3" >
+        <source path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.3/assets" />
+    </dataSet>
+    <dataSet config="0.1.4" >
+        <source path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_apps/application_management/0.1.4/assets" />
+    </dataSet>
+    <dataSet config="0.1.4" >
+        <source path="/home/darkriddle/android/src/android_remocons/robot_remocon/build/intermediates/exploded-aar/com.github.rosjava.android_extras/zxing/0.1.4/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/main/assets" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/home/darkriddle/android/src/android_remocons/robot_remocon/src/release/assets" />
+    </dataSet>
+
+</merger>
