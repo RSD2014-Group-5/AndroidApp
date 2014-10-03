@@ -1,0 +1,24 @@
+#/build
+#/application_management/build
+#/listener/build
+#/make_a_map/build
+#/map_manager/build
+#/map_nav/build
+#/teleop/build
+#/testrosapp/build
+
+bin
+gen
+libs
+build.xml
+local.properties
+proguard-project.txt
+.gradle
+build
+
+# These are Android Studio files, might be worth including these later.
+.idea
+*.iml
+build.log
+build-log.xml
+docs.iml
