@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "android_core")
+set(android_core_MAINTAINER "Daniel Stonier <d.stonier@gmail.com>, Damon Kohler <damonkohler@google.com>")
+set(android_core_DEPRECATED "")
+set(android_core_VERSION "0.1.3")
+set(android_core_BUILD_DEPENDS "rosjava_build_tools" "rosjava_core")
+set(android_core_RUN_DEPENDS )
+set(android_core_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,16 @@
+/home/darkriddle/android/build/android_core/CMakeFiles/_catkin_empty_exported_target.dir
+/home/darkriddle/android/build/CMakeFiles/clean_test_results.dir
+/home/darkriddle/android/build/CMakeFiles/doxygen.dir
+/home/darkriddle/android/build/android_apps/CMakeFiles/gradle-android_apps.dir
+/home/darkriddle/android/build/android_core/CMakeFiles/gradle-android_core.dir
+/home/darkriddle/android/build/android_extras/CMakeFiles/gradle-android_extras.dir
+/home/darkriddle/android/build/android_remocons/CMakeFiles/gradle-android_remocons.dir
+/home/darkriddle/android/build/android_core/CMakeFiles/gradle-clean.dir
+/home/darkriddle/android/build/android_apps/CMakeFiles/gradle-clean-android_apps.dir
+/home/darkriddle/android/build/android_core/CMakeFiles/gradle-clean-android_core.dir
+/home/darkriddle/android/build/android_extras/CMakeFiles/gradle-clean-android_extras.dir
+/home/darkriddle/android/build/android_remocons/CMakeFiles/gradle-clean-android_remocons.dir
+/home/darkriddle/android/build/gtest/CMakeFiles/gtest.dir
+/home/darkriddle/android/build/gtest/CMakeFiles/gtest_main.dir
+/home/darkriddle/android/build/CMakeFiles/run_tests.dir
+/home/darkriddle/android/build/CMakeFiles/tests.dir

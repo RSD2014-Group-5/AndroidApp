@@ -1,0 +1,8 @@
+prefix=/home/darkriddle/android/devel
+
+Name: android_remocons
+Description: Description of android_remocons
+Version: 0.1.2
+Cflags: 
+Libs: -L/home/darkriddle/android/devel/lib 
+Requires: 

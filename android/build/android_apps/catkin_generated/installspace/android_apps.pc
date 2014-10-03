@@ -1,0 +1,8 @@
+prefix=/home/darkriddle/android/install
+
+Name: android_apps
+Description: Description of android_apps
+Version: 0.1.4
+Cflags: 
+Libs: -L/home/darkriddle/android/install/lib 
+Requires: 

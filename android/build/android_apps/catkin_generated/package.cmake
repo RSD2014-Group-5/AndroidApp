@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "android_apps")
+set(android_apps_MAINTAINER "Daniel Stonier <d.stonier@gmail.com>")
+set(android_apps_DEPRECATED "")
+set(android_apps_VERSION "0.1.4")
+set(android_apps_BUILD_DEPENDS "rosjava_build_tools" "rosjava_bootstrap" "android_core" "android_extras" "zeroconf_jmdns_suite")
+set(android_apps_RUN_DEPENDS )
+set(android_apps_BUILDTOOL_DEPENDS "catkin")

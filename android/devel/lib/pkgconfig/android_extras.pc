@@ -1,0 +1,8 @@
+prefix=/home/darkriddle/android/devel
+
+Name: android_extras
+Description: Description of android_extras
+Version: 0.1.4
+Cflags: 
+Libs: -L/home/darkriddle/android/devel/lib 
+Requires: 

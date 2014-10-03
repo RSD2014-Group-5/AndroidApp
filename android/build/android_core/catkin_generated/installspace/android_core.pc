@@ -1,0 +1,8 @@
+prefix=/home/darkriddle/android/install
+
+Name: android_core
+Description: Description of android_core
+Version: 0.1.3
+Cflags: 
+Libs: -L/home/darkriddle/android/install/lib 
+Requires: 
