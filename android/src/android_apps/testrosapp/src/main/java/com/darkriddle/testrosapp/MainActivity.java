@@ -1,26 +1,31 @@
 package com.darkriddle.testrosapp;
 
-import android.app.Activity;
-
 import android.app.ActionBar;
+import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
-import android.content.Context;
-import android.os.Build;
 import android.os.Bundle;
-import android.view.Gravity;
+import android.support.v4.widget.DrawerLayout;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.support.v4.widget.DrawerLayout;
-import android.widget.ArrayAdapter;
-import android.widget.TextView;
 
+import org.ros.address.InetAddressFactory;
+import org.ros.android.RosActivity;
+import org.ros.android.view.camera.RosCameraPreviewView;
+import org.ros.node.NodeConfiguration;
+import org.ros.node.NodeMainExecutor;
 
-public class MainActivity extends Activity
-        implements NavigationDrawerFragment.NavigationDrawerCallbacks {
+public class MainActivity extends RosActivity implements NavigationDrawerFragment.NavigationDrawerCallbacks {
+
+    //private int cameraId;
+    //private RosCameraPreviewView rosCameraPreviewView;
+
+    public MainActivity() {
+        super("TestROSApp", "TestROSApp");
+    }
 
     /**
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
@@ -33,24 +38,26 @@ public class MainActivity extends Activity
     private CharSequence mTitle;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mNavigationDrawerFragment = (NavigationDrawerFragment)
-                getFragmentManager().findFragmentById(R.id.navigation_drawer);
+        mNavigationDrawerFragment = (NavigationDrawerFragment) ((Activity)this).getFragmentManager().findFragmentById(R.id.navigation_drawer);
         mTitle = getTitle();
 
         // Set up the drawer.
         mNavigationDrawerFragment.setUp(
                 R.id.navigation_drawer,
                 (DrawerLayout) findViewById(R.id.drawer_layout));
+
+        //rosCameraPreviewView = (RosCameraPreviewView) findViewById(R.id.ros_camera_preview_view);
     }
 
     @Override
     public void onNavigationDrawerItemSelected(int position) {
         // update the main content by replacing fragments
-        FragmentManager fragmentManager = getFragmentManager();
+        FragmentManager fragmentManager = ((Activity)this).getFragmentManager();
         switch (position) {
             case 0:
                 fragmentManager.beginTransaction().replace(R.id.container, new OverviewFragment()).commit();
@@ -75,7 +82,7 @@ public class MainActivity extends Activity
     }
 
     public void restoreActionBar() {
-        ActionBar actionBar = getActionBar();
+        ActionBar actionBar = ((Activity)this).getActionBar();
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
         actionBar.setDisplayShowTitleEnabled(true);
         actionBar.setTitle(mTitle);
@@ -136,8 +143,7 @@ public class MainActivity extends Activity
         }
 
         @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                Bundle savedInstanceState) {
+        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
             return rootView;
         }
@@ -148,6 +154,16 @@ public class MainActivity extends Activity
             ((MainActivity) activity).onSectionAttached(
                     getArguments().getInt(ARG_SECTION_NUMBER));
         }
+    }
+
+    @Override
+    protected void init(NodeMainExecutor nodeMainExecutor) {
+        //cameraId = 0;
+        //rosCameraPreviewView.setCamera(Camera.open(cameraId));
+        NodeConfiguration nodeConfiguration =
+                NodeConfiguration.newPublic(InetAddressFactory.newNonLoopback().getHostAddress());
+        nodeConfiguration.setMasterUri(getMasterUri());
+        //nodeMainExecutor.execute(rosCameraPreviewView, nodeConfiguration);
     }
 
 }
