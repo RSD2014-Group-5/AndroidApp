@@ -1,4 +1,4 @@
-include ':testrosapp'
+include ':testrosapp', ':Frobit'
 /*
  * Copyright (C) 2011 Google Inc.
  *
