@@ -23,8 +23,11 @@ public class ControlFragment extends Fragment {
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
-        ((MainActivity) activity).onSectionAttached(R.string.section_control);
-        getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        //((MainActivity) activity).onSectionAttached(R.string.section_control);
+        Bundle nodeBundle = new Bundle();
+        nodeBundle.putInt("titleId",R.string.section_control);
+        ((MainActivity) activity).onSectionAttached(nodeBundle);
+//        getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
     }
 }
 

@@ -23,7 +23,10 @@ public class OverviewFragment extends Fragment {
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
-        ((MainActivity) activity).onSectionAttached(R.string.section_overview);
+        //((MainActivity) activity).onSectionAttached(R.string.section_overview);
+        Bundle nodeBundle = new Bundle();
+        nodeBundle.putInt("titleId",R.string.section_overview);
+        ((MainActivity) activity).onSectionAttached(nodeBundle);
         getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
     }
 }

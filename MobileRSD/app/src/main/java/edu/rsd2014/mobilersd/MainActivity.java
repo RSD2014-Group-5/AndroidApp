@@ -7,6 +7,7 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -14,8 +15,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
 
-public class MainActivity extends Activity
-        implements NavigationDrawerFragment.NavigationDrawerCallbacks {
+import org.ros.address.InetAddressFactory;
+import org.ros.android.RosActivity;
+import org.ros.node.NodeConfiguration;
+import org.ros.node.NodeMainExecutor;
+
+public class MainActivity extends RosActivity implements NavigationDrawerFragment.NavigationDrawerCallbacks {
 
     /**
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
@@ -27,13 +32,16 @@ public class MainActivity extends Activity
      */
     private CharSequence mTitle;
 
+    public MainActivity() {
+        super("MobileRSD", "MobileRSD");
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mNavigationDrawerFragment = (NavigationDrawerFragment)
-                getFragmentManager().findFragmentById(R.id.navigation_drawer);
+        mNavigationDrawerFragment = (NavigationDrawerFragment) getFragmentManager().findFragmentById(R.id.navigation_drawer);
         mTitle = getTitle();
 
         // Set up the drawer.
@@ -65,8 +73,14 @@ public class MainActivity extends Activity
         }
     }
 
-    public void onSectionAttached(int resource_id) {
+    /*public void onSectionAttached(int resource_id) {
         mTitle = getString(resource_id);
+    }*/
+    public void onSectionAttached(Bundle nodeBundle) {
+        //mTitle = getString(resource_id);
+        int titleId = nodeBundle.getInt("titleId");
+        mTitle = getString(titleId);
+
     }
 
     public void restoreActionBar() {
@@ -105,6 +119,12 @@ public class MainActivity extends Activity
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    protected void init(NodeMainExecutor nodeMainExecutor) {
+            NodeConfiguration nodeConfiguration = NodeConfiguration.newPublic(InetAddressFactory.newNonLoopback().getHostAddress());
+            nodeConfiguration.setMasterUri(getMasterUri());
+    }
+
     /**
      * A placeholder fragment containing a simple view.
      */
@@ -131,8 +151,7 @@ public class MainActivity extends Activity
         }
 
         @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                Bundle savedInstanceState) {
+        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
             return rootView;
         }
@@ -140,7 +159,10 @@ public class MainActivity extends Activity
         @Override
         public void onAttach(Activity activity) {
             super.onAttach(activity);
-            ((MainActivity) activity).onSectionAttached(R.string.app_name);
+            //((MainActivity) activity).onSectionAttached(R.string.app_name);
+            Bundle nodeBundle = new Bundle();
+            nodeBundle.putInt("titleId",R.string.app_name);
+            ((MainActivity) activity).onSectionAttached(nodeBundle);
         }
     }
 

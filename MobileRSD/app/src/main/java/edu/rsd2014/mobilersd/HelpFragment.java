@@ -21,7 +21,10 @@ public class HelpFragment extends Fragment {
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
-        ((MainActivity) activity).onSectionAttached(R.string.section_help);
+        //((MainActivity) activity).onSectionAttached(R.string.section_help);
+        Bundle nodeBundle = new Bundle();
+        nodeBundle.putInt("titleId",R.string.section_help);
+        ((MainActivity) activity).onSectionAttached(nodeBundle);
         getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
     }
 }
