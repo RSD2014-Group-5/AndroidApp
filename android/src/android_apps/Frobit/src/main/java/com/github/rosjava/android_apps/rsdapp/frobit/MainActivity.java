@@ -17,8 +17,6 @@ import org.ros.node.NodeConfiguration;
 import org.ros.node.NodeMainExecutor;
 import org.ros.address.InetAddressFactory;
 import org.ros.android.BitmapFromCompressedImage;
-import org.ros.android.view.VirtualJoystickView;
-
 
 import org.ros.android.RosActivity;
 import org.ros.node.ConnectedNode;
@@ -34,7 +32,9 @@ import org.ros.android.view.RosTextView;
 public class MainActivity extends RosActivity {
 
     private VirtualJoystickView virtualJoystickView;
+    private VirtualJoystickView_Stamped virtualJoystickView_stamped;
     private RosTextView rosTextView;
+    private RosTextView rosTextView_cmdvel;
     private Talker talker;
     private Listener listener;
 
@@ -49,6 +49,7 @@ public class MainActivity extends RosActivity {
 
         rosTextView = (RosTextView<std_msgs.String>) findViewById(R.id.rostext);
         rosTextView.setTopicName("frobitapp/listener");
+
         rosTextView.setMessageType(std_msgs.String._TYPE);
         rosTextView.setMessageToStringCallable(new MessageCallable<java.lang.String, std_msgs.String>() {
             @Override
@@ -57,7 +58,28 @@ public class MainActivity extends RosActivity {
             }
         });
 
-        virtualJoystickView = (VirtualJoystickView) findViewById(R.id.virtual_joystick);
+        rosTextView_cmdvel = (RosTextView<std_msgs.String>) findViewById(R.id.rostext_cmdvel);
+        rosTextView_cmdvel.setTopicName("fmCommand/cmd_vel");
+        rosTextView_cmdvel.setMessageType(geometry_msgs.TwistStamped._TYPE);
+        rosTextView_cmdvel.setMessageToStringCallable(new MessageCallable<java.lang.String, geometry_msgs.TwistStamped>() {
+            //Math.floor(valueToCheck * 100) / 100;
+            @Override
+            public java.lang.String call(geometry_msgs.TwistStamped message) {
+                java.lang.String z_str ="", x_str = "";
+                Double z_val, x_val;
+
+                z_val = message.getTwist().getAngular().getZ();
+                x_val = message.getTwist().getLinear().getX();
+
+
+               // return "X: " +"\n" + x_str + "\n"+ "Z: " + "\n" + z_str + "\n";
+                return "Linear: " +"\n" + java.lang.String.format("%.10f",x_val) + "\n"+ "Angular: " + "\n" + java.lang.String.format("%.10f",z_val);
+
+            }
+        });
+
+       // virtualJoystickView = (VirtualJoystickView) findViewById(R.id.virtual_joystick);
+        virtualJoystickView_stamped = (VirtualJoystickView_Stamped) findViewById(R.id.virtual_joystick);
     }
 
     @Override
@@ -69,8 +91,10 @@ public class MainActivity extends RosActivity {
         nodeConfiguration.setMasterUri(getMasterUri());
         nodeMainExecutor.execute(talker, nodeConfiguration);
         nodeMainExecutor.execute(listener, nodeConfiguration);
-        nodeMainExecutor.execute(rosTextView, nodeConfiguration);
-        nodeMainExecutor.execute(virtualJoystickView, nodeConfiguration.setNodeName("virtual_joystick"));
+        //nodeMainExecutor.execute(rosTextView, nodeConfiguration);
+        nodeMainExecutor.execute(rosTextView_cmdvel, nodeConfiguration);
+//        nodeMainExecutor.execute(virtualJoystickView, nodeConfiguration.setNodeName("virtual_joystick"));
+        nodeMainExecutor.execute(virtualJoystickView_stamped, nodeConfiguration.setNodeName("fmCommand"));
     }
 
     @Override

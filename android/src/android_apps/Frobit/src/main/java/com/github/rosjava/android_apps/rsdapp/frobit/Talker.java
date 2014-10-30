@@ -25,7 +25,8 @@ public class Talker extends AbstractNodeMain {
     @Override
     public void onStart(final ConnectedNode connectedNode) {
         final Publisher<std_msgs.String> publisher =
-                connectedNode.newPublisher("frobitapp/talker", std_msgs.String._TYPE);
+                //connectedNode.newPublisher("frobitapp/talker", std_msgs.String._TYPE);
+                connectedNode.newPublisher("frobitapp/deadman", std_msgs.String._TYPE);
         // This CancellableLoop will be canceled automatically when the node shuts
         // down.
         connectedNode.executeCancellableLoop(new CancellableLoop() {
