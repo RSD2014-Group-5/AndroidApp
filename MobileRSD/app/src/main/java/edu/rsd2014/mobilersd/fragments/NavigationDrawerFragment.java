@@ -1,4 +1,4 @@
-package edu.rsd2014.mobilersd;
+package edu.rsd2014.mobilersd.fragments;
 
 
 import android.app.Activity;
@@ -21,6 +21,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import edu.rsd2014.mobilersd.R;
 
 /**
  * Fragment used for managing interactions for and presentation of a navigation drawer.
@@ -247,7 +249,7 @@ public class NavigationDrawerFragment extends Fragment {
         super.onCreateOptionsMenu(menu, inflater);
     }
 
-    @Override
+    /*@Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (mDrawerToggle.onOptionsItemSelected(item)) {
             return true;
@@ -259,7 +261,7 @@ public class NavigationDrawerFragment extends Fragment {
         }
 
         return super.onOptionsItemSelected(item);
-    }
+    }*/
 
     /**
      * Per the navigation drawer design guidelines, updates the action bar to show the global app

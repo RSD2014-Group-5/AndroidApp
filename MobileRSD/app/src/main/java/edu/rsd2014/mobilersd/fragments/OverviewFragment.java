@@ -1,4 +1,4 @@
-package edu.rsd2014.mobilersd;
+package edu.rsd2014.mobilersd.fragments;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -8,22 +8,27 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import edu.rsd2014.mobilersd.MainActivity;
+import edu.rsd2014.mobilersd.R;
+
 /**
  * Created by darkriddle on 10/22/14.
  */
-public class HelpFragment extends Fragment {
+public class OverviewFragment extends Fragment {
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.help, container,false);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.overview, container,
+                false);
         return rootView;
     }
 
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
-        //((MainActivity) activity).onSectionAttached(R.string.section_help);
+        //((MainActivity) activity).onSectionAttached(R.string.section_overview);
         Bundle nodeBundle = new Bundle();
-        nodeBundle.putInt("titleId",R.string.section_help);
+        nodeBundle.putInt("titleId",R.string.section_overview);
         ((MainActivity) activity).onSectionAttached(nodeBundle);
         getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
     }

@@ -113,6 +113,12 @@
         </TableRow>
     </TableLayout>-->
 
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/navigation"
+        android:layout_gravity="center_horizontal" />
+
     <TableLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

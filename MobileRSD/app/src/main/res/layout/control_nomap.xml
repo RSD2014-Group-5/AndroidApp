@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical">
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/navigation"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="400dp"
+        android:layout_height="114dp"
+        android:layout_row="11"
+        android:layout_column="0"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="15px">
+
+        <!-- To be implemented -->
+        <!--<TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Speed"
+            android:id="@+id/textView"
+            android:layout_row="3"
+            android:layout_column="0" />
+
+        <SeekBar
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar"
+            android:progress="50"
+            android:layout_row="4"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Tilt"
+            android:id="@+id/textView2"
+            android:layout_row="5"
+            android:layout_column="0" />
+
+        <SeekBar
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar2"
+            android:layout_row="6"
+            android:layout_column="0" />-->
+    </LinearLayout>
+
+    <edu.rsd2014.mobilersd.views.VirtualJoystickView_Stamped
+        android:id="@+id/virtual_joystick"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="4"
+        android:adjustViewBounds="true"
+        android:layout_margin="25dp"/>
+
+</LinearLayout>

@@ -5,9 +5,7 @@ import android.app.Activity;
 import android.app.ActionBar;
 import android.app.Fragment;
 import android.app.FragmentManager;
-import android.content.Context;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -20,7 +18,14 @@ import org.ros.android.RosActivity;
 import org.ros.node.NodeConfiguration;
 import org.ros.node.NodeMainExecutor;
 
+import edu.rsd2014.mobilersd.fragments.ControlFragment;
+import edu.rsd2014.mobilersd.fragments.HelpFragment;
+import edu.rsd2014.mobilersd.fragments.NavigationDrawerFragment;
+import edu.rsd2014.mobilersd.fragments.OEEFragment;
+import edu.rsd2014.mobilersd.fragments.OverviewFragment;
+
 public class MainActivity extends RosActivity implements NavigationDrawerFragment.NavigationDrawerCallbacks {
+//public class MainActivity extends Activity implements NavigationDrawerFragment.NavigationDrawerCallbacks {
 
     /**
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.

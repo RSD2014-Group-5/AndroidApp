@@ -1,4 +1,4 @@
-package edu.rsd2014.mobilersd;
+package edu.rsd2014.mobilersd.fragments;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -9,6 +9,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import edu.rsd2014.mobilersd.MainActivity;
+import edu.rsd2014.mobilersd.R;
 
 /**
  * Created by darkriddle on 10/23/14.
