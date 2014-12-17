@@ -34,8 +34,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="60%"
-                android:id="@+id/textView2" />
+                android:id="@+id/txtBattery" />
         </TableRow>
 
         <TableRow
@@ -54,8 +53,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="175"
-                android:id="@+id/textView4" />
+                android:id="@+id/txtXcoord" />
         </TableRow>
 
         <TableRow
@@ -74,8 +72,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="5"
-                android:id="@+id/textView6" />
+                android:id="@+id/txtYcoord" />
         </TableRow>
 
         <TableRow
@@ -91,7 +88,7 @@
                 android:textStyle="bold" />
 
             <ListView
-                android:id="@+id/listView1"
+                android:id="@+id/lstTasks"
                 android:layout_width="match_parent"
                 android:layout_height="180dp"
                 android:entries="@array/fakeTasks"
@@ -116,8 +113,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Gray Area"
-                android:id="@+id/textView9" />
+                android:id="@+id/txtLocation" />
         </TableRow>
 
         <TableRow
@@ -136,8 +132,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="0%"
-                android:id="@+id/textView11" />
+                android:id="@+id/txtTilt" />
         </TableRow>
 
         <TableRow
@@ -156,8 +151,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="0.5 m/s"
-                android:id="@+id/textView13" />
+                android:id="@+id/txtSpeed" />
         </TableRow>
 
         <TableRow
@@ -178,5 +172,29 @@
                 android:text="                                                               "
                 android:id="@+id/textView15" />
         </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView16"
+                android:layout_column="0" />
+        </TableRow>
+
+        <!--<TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/button"
+                android:layout_column="0" />
+        </TableRow>-->
     </TableLayout>
 </LinearLayout>

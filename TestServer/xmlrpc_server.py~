@@ -1,0 +1,42 @@
+# Server code
+
+import SimpleXMLRPCServer
+
+class StringFunctions:
+    def __init__(self):
+        # Make all of the Python string functions available through
+        # python_string.func_name
+        import string
+        self.python_string = string
+
+    def _privateFunction(self):
+        # This function cannot be called through XML-RPC because it
+        # starts with an '_'
+        pass
+    
+    #def chop_in_half(self, astr):
+        #return astr[:len(astr)/2]
+
+    #def repeat(self, astr, times):
+        #return astr * times
+
+    #def get_OEE_data(self):
+        #oee={'uptime':'5:48','orders_waiting':'1.70','orders_processed':'17.669'}
+        #return oee
+
+    def get_overview_data(self):
+        overview={'battery':'60','x-coordinate':'175','y-coordinate':'5','running_task':'moving','location':'gray area','tilt':'0','speed':'0.5'}
+        return overview
+
+    def get_OEE_data(self):
+        oee={'good':'17.669','reject':'178','rate':'3.067','cycle':'1.17','run':'5:48','down':'0:59','setup':'0:29','standby':'0:50','oee':'73','available':'81','performance':'91','quality':'99'}}
+        return oee
+
+    #def get_OEE_data_sel(self,choice):
+        #oee={'uptime':'5:48','orders_waiting':'1.70','orders_processed':'17.669'}
+        #return oee[choice]
+    
+server = SimpleXMLRPCServer.SimpleXMLRPCServer(("localhost", 8000))
+server.register_instance(StringFunctions(),allow_dotted_names=True)
+server.register_function(lambda astr: '_' + astr, '_string')
+server.serve_forever()

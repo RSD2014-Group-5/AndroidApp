@@ -151,8 +151,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="17.669"
-                android:id="@+id/textView15"
+                android:id="@+id/txtGood"
                 android:textColor="#00B800"
                 android:layout_span="1"
                 android:layout_column="1"/>
@@ -176,8 +175,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="178"
-                android:id="@+id/textView17"
+                android:id="@+id/txtReject"
                 android:textColor="#00B800"/>
         </TableRow>
 
@@ -199,8 +197,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="3.067"
-                android:id="@+id/textView19"
+                android:id="@+id/txtRate"
                 android:textColor="#00B800"/>
         </TableRow>
 
@@ -222,8 +219,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="1.17"
-                android:id="@+id/textView21"
+                android:id="@+id/txtCycle"
                 android:textColor="#00B800"/>
         </TableRow>
 
@@ -257,8 +253,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="5:48"
-                android:id="@+id/textView23"
+                android:id="@+id/txtRun"
                 android:textColor="#00B800"/>
         </TableRow>
 
@@ -280,8 +275,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="0:59"
-                android:id="@+id/textView25"
+                android:id="@+id/txtDown"
                 android:textColor="#00B800"/>
         </TableRow>
 
@@ -303,8 +297,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="0:29"
-                android:id="@+id/textView27"
+                android:id="@+id/txtSetup"
                 android:textColor="#00B800"/>
         </TableRow>
 
@@ -326,8 +319,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="0:50"
-                android:id="@+id/textView29"
+                android:id="@+id/txtStandby"
                 android:textColor="#00B800"/>
         </TableRow>
 
@@ -361,8 +353,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="73%"
-                android:id="@+id/textView31"
+                android:id="@+id/txtOEE"
                 android:textColor="#00B800"/>
         </TableRow>
 
@@ -384,8 +375,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="81%"
-                android:id="@+id/textView33"
+                android:id="@+id/txtAvailable"
                 android:textColor="#00B800"/>
         </TableRow>
 
@@ -407,8 +397,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="91%"
-                android:id="@+id/textView35"
+                android:id="@+id/txtPerformance"
                 android:textColor="#00B800"/>
         </TableRow>
 
@@ -430,8 +419,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="99%"
-                android:id="@+id/textView37"
+                android:id="@+id/txtQuality"
                 android:textColor="#00B800"/>
         </TableRow>
 
